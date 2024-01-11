@@ -1,4 +1,4 @@
-import '../sass/form-builder.scss'
+import './sass/form-builder.scss'
 import throttle from 'lodash/throttle'
 import Dom from './dom'
 import { remove } from './dom'
