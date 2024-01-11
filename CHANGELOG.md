@@ -1,3 +1,28 @@
+## [3.17.3](https://github.com/kevinchappell/formBuilder/compare/v3.17.2...v3.17.3) (2023-12-08)
+
+
+### Bug Fixes
+
+* Only setup sortable row wrapper and invisible row placeholders when adding a row to the stage ([25a27e6](https://github.com/kevinchappell/formBuilder/commit/25a27e6ced109bbfc745dace16175f80a00b40b1))
+* Use last-of-type instead of last-child due to drag/drop placeholder occupying last-child position ([dc4f312](https://github.com/kevinchappell/formBuilder/commit/dc4f3128372076bba4056f89d22160fd83f8a949))
+* Use the pointer to for sortable intersect detection when dragging controls from the control panel onto a bootstrap row. jQuery.ui sortable used tolerance: intersect which caused the placeholder in a row to jump around when near the edges and the new control is less than 50% contained. ([995fc2e](https://github.com/kevinchappell/formBuilder/commit/995fc2e5ac75b146b4565d3eb24c08c39d45a3f6))
+* When adding rows, reset the hidden flag for all placeholders ([939341c](https://github.com/kevinchappell/formBuilder/commit/939341ce9c4aff39183527202fbe7fb643b3bb9f))
+
+## [3.17.2](https://github.com/kevinchappell/formBuilder/compare/v3.17.1...v3.17.2) (2023-12-08)
+
+
+### Bug Fixes
+
+* For TextArea control have made the value input a textarea and not a single input[type=text] value. Formatting of TextAreas is now preserved. ([0b64d37](https://github.com/kevinchappell/formBuilder/commit/0b64d37c62ad44966817db3371b4e75f3da9da40))
+* For TextArea control have made the value input a textarea and not a single input[type=text] value. Formatting of TextAreas is now preserved. ([8da4cb5](https://github.com/kevinchappell/formBuilder/commit/8da4cb54a08f5ea5386c3f9b7565cd20b20b4b33))
+
+## [3.17.1](https://github.com/kevinchappell/formBuilder/compare/v3.17.0...v3.17.1) (2023-12-08)
+
+
+### Bug Fixes
+
+* Ensure subtype attribute is hidden when disabled via disableAttr ([4572fe6](https://github.com/kevinchappell/formBuilder/commit/4572fe6ad9230dd57a8dd488e72e19612c0016c4))
+
 # [3.17.0](https://github.com/kevinchappell/formBuilder/compare/v3.16.13...v3.17.0) (2023-11-07)
 
 
